@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Registration form</title>
+    </head>
+    <body>
+        <h1><p style="text-align:center">P@cketPrep</p></h1>
+        <form>
+            <fieldset>
+                <legend>Registration Info</legend>
+                Student Name: <input type="text"><br><br>
+                DOB: <input type="date"><br><br>
+                Gender:<br><input type="radio" id="male" name="Gender" value="Male">
+                      <label for="male">Male</label><br>
+                      <input type="radio" id="female" name="Gender" value="Female">
+                <label for="female">Female</label><br><br>
+                Contact: <input type="tel"><br><br>
+                Email: <input type="email" placeholder="enter your email" required><br><br>
+                Address: <textarea (rows="10" cols="10")></textarea><br><br>
+                Academic Information:
+
+                <table border="3">
+                    <th>Class</th>
+                    <th>Institution</th>
+                    <th>Percentage</th>
+                <tr> 
+                <td> Tenth</td>
+                <td> <input type="text"></td>
+                <td> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Intermediate</td>
+                    <td> <input type="text"></td>
+                    <td> <input type="text"></td>
+                </tr>
+                <tr>
+                    <td>Degree</td>
+                    <td> <input type="text"></td>
+                    <td> <input type="text"></td>
+                </tr>
+
+                </table><br><br>
+
+                
+                Internship:<br>
+                <input type="radio" id="python" name="python" value="Python">
+                <label for="python"> Python Full stack</label><br>
+
+                <input type="radio" id="java" name="java" value="Java">
+                <label for="java"> Java Full stack</label><br>
+
+                <input type="radio" id="java" name="java" value="Java">
+                <label for="java"> Java Full stack</label><br>
+
+                <input type="radio" id="nw" name="nw" value="NW">
+                <label for="nw">Computer Networksk</label><br>
+
+                <input type="radio" id="cs" name="cs" value="CS">
+                <label for="cs"> CyberSecurity</label><br><br><br>
+
+                <p style="text-align:center"><input type="checkbox" id="tc" name="tc" value="TC">
+                <label for="tc"> I agree to the terms and conditions</label><br></p>
+                <p style="text-align:center"><input type="submit" value="submit"></p>
+            </fieldset>
+        </form>
+    </body>
+</html>
